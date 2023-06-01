@@ -1,0 +1,34 @@
+[
+    {
+        "symbols": ["BTCUSDT"],
+        "name": "rsi_regular_divergence",
+        "params": {
+            "rsi_len": [14],
+            "delta_rsi": [3],
+            "delta_price_pct": [0.2, 0.3, 0.4],
+            "n_last_point": [7],
+            "min_rr": [3],
+            "min_rw_pct": [1.5],
+            "min_zz_pct": [2],
+            "min_trend_pct": [4],
+            "min_updown_ratio": [0.65],
+            "ob_rsi": [70, 75],
+            "os_rsi": [25, 30],
+            "fib_retr_lv": [0.5, 0.618, 0.786, 1],
+            "zz_type": ["ZZ_CONV"],
+            "zz_conv_size": [3],
+            "sl_fix_mode": ["ADJ_ENTRY"],
+            "n_trend_point": [24, 30]
+        },
+        "tfs": {
+            "tf": "15m"
+        },
+        "usdt": 200,
+        "leverage": 20,
+        "max_sl_pct": 2,
+        "months": [
+            2, 3, 4
+        ],
+        "year": 2022
+    }
+]

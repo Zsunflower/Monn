@@ -1,0 +1,124 @@
+[
+    {
+        "symbol": "XAUUSDm",
+        "strategies": [
+            {
+                "name": "break_strategy",
+                "params": {
+                    "min_num_cuml": 10,
+                    "min_zz_pct": 0.5,
+                    "zz_dev": 2.5,
+                    "ma_vol": 25,
+                    "vol_ratio_ma": 1.8,
+                    "kline_body_ratio": 2.5,
+                    "sl_fix_mode": "ADJ_SL"
+                },
+                "tfs": {
+                    "tf": "15m"
+                },
+                "max_sl_pct": 0.75,
+                "volume": 0.01
+            },
+            {
+                "name": "macd_divergence",
+                "params": {
+                    "delta_macd": 2,
+                    "delta_price_pct": 0.1,
+                    "macd_inputs": {
+                        "fast_len": 12,
+                        "signal": 9,
+                        "slow_len": 26
+                    },
+                    "macd_type": "MACD",
+                    "min_rr": 2,
+                    "min_rw_pct": 1,
+                    "min_trend_pct": 0.5,
+                    "min_updown_ratio": 0.5,
+                    "min_zz_pct": 0.5,
+                    "n_last_point": 5,
+                    "n_trend_point": 14,
+                    "sl_fix_mode": "ADJ_SL",
+                    "zz_conv_size": 3,
+                    "zz_type": "ZZ_DRC"
+                },
+                "tfs": {
+                    "tf": "15m"
+                },
+                "max_sl_pct": 0.75,
+                "volume": 0.01
+            },
+            {
+                "name": "rsi_hidden_divergence",
+                "params": {
+                    "delta_price_pct": 0.1,
+                    "delta_rsi": 2,
+                    "min_rr": 2,
+                    "min_rw_pct": 0.5,
+                    "min_trend_pct": 1,
+                    "min_updown_ratio": 0.65,
+                    "min_zz_pct": 0.5,
+                    "n_last_point": 5,
+                    "n_trend_point": 14,
+                    "rsi_len": 14,
+                    "sl_fix_mode": "ADJ_SL",
+                    "zz_conv_size": 3,
+                    "zz_type": "ZZ_DRC"
+                },
+                "tfs": {
+                    "tf": "15m"
+                },
+                "volume": 0.01,
+                "max_sl_pct": 1
+            },
+            {
+                "name": "rsi_regular_divergence",
+                "params": {
+                    "rsi_len": 14,
+                    "delta_rsi": 2,
+                    "delta_price_pct": 0.1,
+                    "n_last_point": 5,
+                    "min_rr": 2,
+                    "min_rw_pct": 0.75,
+                    "min_zz_pct": 0.5,
+                    "ob_rsi": 70,
+                    "os_rsi": 25,
+                    "fib_retr_lv": 1,
+                    "zz_type": "ZZ_DRC",
+                    "zz_conv_size": 3,
+                    "sl_fix_mode": "ADJ_ENTRY",
+                    "n_trend_point": 40
+                },
+                "tfs": {
+                    "tf": "15m"
+                },
+                "volume": 0.01,
+                "max_sl_pct": 0.25
+            },
+            {
+                "name": "trend_following",
+                "params": {
+                    "min_zz_pct": 0.5,
+                    "min_order_zz_pct": 0.075,
+                    "max_last_trend_line": 3,
+                    "max_last_zigzag": 5,
+                    "delta_zz": 3,
+                    "delta_order": 1,
+                    "sl_fix_mode": "ADJ_ENTRY"
+                },
+                "tfs": {
+                    "tf": "15m"
+                },
+                "max_sl_pct": 0.3,
+                "volume": 0.01
+            }
+        ],
+        "months": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "year": 2023
+    }
+]

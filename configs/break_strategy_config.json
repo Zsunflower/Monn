@@ -1,0 +1,32 @@
+[
+    {
+        "symbol": "XAUUSDm",
+        "strategies": [
+            {
+                "name": "break_strategy",
+                "params": {
+                    "min_num_cuml": 10,
+                    "min_zz_pct": 0.5,
+                    "zz_dev": 2,
+                    "ma_vol": 25,
+                    "vol_ratio_ma": 1.8,
+                    "kline_body_ratio": 2.5,
+                    "sl_fix_mode": "ADJ_SL"
+                },
+                "tfs": {
+                    "tf": "15m"
+                },
+                "max_sl_pct": 0.75,
+                "volume": 0.01
+            }
+        ],
+        "months": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "year": 2023
+    }
+]

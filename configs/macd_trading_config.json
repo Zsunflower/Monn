@@ -1,0 +1,39 @@
+[
+    {
+        "symbol": "XAUUSDm",
+        "strategies": [
+            {
+                "name": "macd_divergence",
+                "params": {
+                    "delta_macd": 2,
+                    "delta_price_pct": 0.1,
+                    "macd_inputs": {
+                        "fast_len": 12,
+                        "signal": 9,
+                        "slow_len": 26
+                    },
+                    "macd_type": "MACD",
+                    "min_rr": 2,
+                    "min_rw_pct": 1,
+                    "min_trend_pct": 0.5,
+                    "min_updown_ratio": 0.5,
+                    "min_zz_pct": 0.5,
+                    "n_last_point": 5,
+                    "n_trend_point": 14,
+                    "sl_fix_mode": "ADJ_SL",
+                    "zz_conv_size": 3,
+                    "zz_type": "ZZ_DRC"
+                },
+                "tfs": {
+                    "tf": "15m"
+                },
+                "max_sl_pct": 0.75,
+                "volume": 0.01
+            }
+        ],
+        "months": [
+            1, 2, 3, 4, 5
+        ],
+        "year": 2023
+    }
+]

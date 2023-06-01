@@ -1,0 +1,27 @@
+[
+    {
+        "symbols": ["BTCUSDT"],
+        "name": "break_strategy",
+        "params": {
+            "up_trend_pct": [2.5, 3],
+            "down_trend_pct": [1, 1.5],
+            "down_pct_min": [1.5],
+            "ma_vol": [25],
+            "vol_ratio_ma": [2.5, 3, 3.5],
+            "kline_body_ratio": [3, 4],
+            "n_kline_trend": [70, 100, 120],
+            "sl_pad_pct": [0.5],
+            "sl_fix_mode": ["ADJ_SL"]
+        },
+        "tfs": {
+            "tf": "15m"
+        },
+        "usdt": 200,
+        "leverage": 20,
+        "max_sl_pct": 1.5,
+        "months": [
+            1, 2, 3
+        ],
+        "year": 2023
+    }
+]

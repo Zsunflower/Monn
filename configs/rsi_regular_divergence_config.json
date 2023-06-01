@@ -1,0 +1,35 @@
+[
+    {
+        "symbol": "XAUUSDm",
+        "strategies": [
+            {
+                "name": "rsi_regular_divergence",
+                "params": {
+                    "rsi_len": 14,
+                    "delta_rsi": 2,
+                    "delta_price_pct": 0.1,
+                    "n_last_point": 5,
+                    "min_rr": 2,
+                    "min_rw_pct": 0.75,
+                    "min_zz_pct": 0.5,
+                    "ob_rsi": 70,
+                    "os_rsi": 25,
+                    "fib_retr_lv": 1,
+                    "zz_type": "ZZ_DRC",
+                    "zz_conv_size": 3,
+                    "sl_fix_mode": "ADJ_ENTRY",
+                    "n_trend_point": 40
+                },
+                "tfs": {
+                    "tf": "15m"
+                },
+                "volume": 0.01,
+                "max_sl_pct": 0.25
+            }
+        ],
+        "months": [
+            1
+        ],
+        "year": 2023
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "symbols": ["BTCUSDT"],
+        "name": "ma_heikin_ashi",
+        "params": {
+            "ha_smooth": [5, 7, 9],
+            "fast_ma": [10, 20, 30],
+            "slow_ma": [50, 70, 90],
+            "type": ["SMA", "EMA"],
+            "n_kline_trend": [20, 30, 40],
+            "sl_fix_mode": ["IGNORE", "ADJ_SL"]
+        },
+        "tfs": {
+            "tf": "15m"
+        },
+        "usdt": 200,
+        "leverage": 20,
+        "max_sl_pct": 2,
+        "months": [
+            1
+        ],
+        "year": 2023
+    }
+]

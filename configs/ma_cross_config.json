@@ -1,0 +1,25 @@
+[
+    {
+        "symbol": "XAUUSDm",
+        "strategies": [
+            {
+                "name": "ma_cross",
+                "params": {
+                    "fast_ma": 10,
+                    "slow_ma": 20,
+                    "type": "SMA",
+                    "sl_fix_mode": "ADJ_SL"
+                },
+                "tfs": {
+                    "tf": "15m"
+                },
+                "max_sl_pct": 0.25,
+                "volume": 0.01
+            }
+        ],
+        "months": [
+            1
+        ],
+        "year": 2023
+    }
+]
