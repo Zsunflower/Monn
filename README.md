@@ -46,8 +46,15 @@ This repository contains a trading bot that utilizes the MetaTrader5 API for aut
   3. For backtesting a strategy, use the following command:
      ```bash
      python main.py --mode test --exch mt5 --exch_cfg_file configs/exchange_config.json --sym_cfg_file <configs/break_strategy_config.json> --data_dir <path to historical candle data>
-    The bot will generate an HTML file that visualizes the generated orders in 'debug' folder.
 
+   Backtest result of each strategy will be output like this:
+    ![Screenshot 1](debug/test.PNG)
+    ![Screenshot 1](debug/test2.PNG)
+
+   The bot will generate an HTML file that visualizes the generated orders in 'debug' folder. Example:
+   - [Break strategy](debug/XAUUSDm/break_strategy.html)
+   - [RSI regular divergence](debug/XAUUSDm/rsi_regular_divergence.html)
+   
   4. For tuning a strategy's parameters, use the following command:
      ```bash
      python tuning.py --sym_cfg_file <tuning_configs/break_strategy_tuning_config.json> --data_dir <path to historical candle data>
