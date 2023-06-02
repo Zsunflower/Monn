@@ -93,23 +93,6 @@
                 },
                 "volume": 0.01,
                 "max_sl_pct": 0.25
-            },
-            {
-                "name": "trend_following",
-                "params": {
-                    "min_zz_pct": 0.5,
-                    "min_order_zz_pct": 0.075,
-                    "max_last_trend_line": 3,
-                    "max_last_zigzag": 5,
-                    "delta_zz": 3,
-                    "delta_order": 1,
-                    "sl_fix_mode": "ADJ_ENTRY"
-                },
-                "tfs": {
-                    "tf": "15m"
-                },
-                "max_sl_pct": 0.3,
-                "volume": 0.01
             }
         ],
         "months": [

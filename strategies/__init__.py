@@ -6,4 +6,3 @@ from .rsi_regular_divergence import RSIRegularDivergence
 from .break_strategy import BreakStrategy
 from .price_action import PriceAction
 from .trend_following import TrendFollowing
-from .zigzag_follower import ZigzagFollower
