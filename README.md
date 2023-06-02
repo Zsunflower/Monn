@@ -48,8 +48,8 @@ This repository contains a trading bot that utilizes the MetaTrader5 API for aut
      python main.py --mode test --exch mt5 --exch_cfg_file configs/exchange_config.json --sym_cfg_file <configs/break_strategy_config.json> --data_dir <path to historical candle data>
 
    Backtest result of each strategy will be output like this:
-    ![Screenshot 1](https://drive.google.com/file/d/1m4IgwIpcM9Ineh3gQt2f0vxffSAjWTRS/view?usp=sharing)
-    ![Screenshot 1](https://drive.google.com/file/d/184pKQMqHaxzZVzRezRkJLFcRESgfBTDB/view?usp=drive_link)
+    ![Screenshot 1](debug/test.jpg)
+    ![Screenshot 1](debug/test2.jpg)
 
    The bot will generate an HTML file that visualizes the generated orders in 'debug' folder. [View example](https://drive.google.com/drive/folders/1C0ZnOCIMQtW3uN2PjEis9MqDeLrSwVEm?usp=drive_link)
    
