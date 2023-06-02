@@ -128,7 +128,6 @@ launch.json
 
 # Pyre type checker
 .pyre/
-debug/*
 Draft.ipynb
 *.csv
 test_symbol_trading_config.json
