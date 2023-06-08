@@ -51,7 +51,7 @@ This repository contains a trading bot that utilizes the MetaTrader5 API for aut
     ![Screenshot 1](debug/test.jpg)
     ![Screenshot 1](debug/test2.jpg)
 
-   The bot will generate an HTML file that visualizes the generated orders in 'debug' folder. [View example](https://drive.google.com/drive/folders/1C0ZnOCIMQtW3uN2PjEis9MqDeLrSwVEm?usp=drive_link)
+   The bot will generate an HTML file that visualizes the generated orders in 'debug' folder. [View example](https://1drv.ms/f/s!AtOy_2VZv2ojo3CdJpdBvbBtZBdP?e=7eyLd4)
    
   4. For tuning a strategy's parameters, use the following command:
      ```bash
